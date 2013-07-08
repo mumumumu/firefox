@@ -1,0 +1,56 @@
+/* A more streamlined interface for Reddit. May break on some subreddits.
+ * Preview: http://i.minus.com/iB0UEH6oYnn87.png
+ */
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("www.reddit.com") {
+
+    .side,
+    .tabmenu,
+    .organic-listing,
+    .promoted,
+    #header-img,
+    .thumbnail.self {
+        display: none !important;
+    }
+
+    body,
+    #header,
+    #sr-header-area,
+    div.comment,
+    div.self,
+    .md,
+    .link,
+    #sr-more-link,
+    .expando-button,
+    .footer-parent * {
+        background-color: #393636 !important;
+    }
+
+    .nextprev a,
+    #header-bottom-right{
+        background-color: #534f4f !important;
+        border: none !important;
+    }
+
+    a:link {
+        color: #64C8F0 !important;
+    }
+
+    a:visited {
+        color: #917DE6 !important;
+    }
+
+    a:hover {
+        color: #E63CBE !important;
+    }
+
+    .title,
+    .userkarma,
+    .usertext-body,
+    .dropdown-title{
+        color: white !important;
+    }
+
+}

@@ -1,0 +1,33 @@
+/* Preview: http://i.minus.com/ioBehn6KvmcpF.png
+ * Additional Plugins: Tree Style Tab, Location Bar Enhancer.
+ * Note: The visual style used along side this CSS has no caption bars visible.
+ * You may need to adjust the margins to fit your VS.
+ */
+
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+#browser-border-start,
+#browser-border-end,
+#urlbar-container dropmarker {
+	display: none !important;
+}
+
+#navigator-toolbox::after {
+	height: 0px !important;
+}
+
+#main-window[sizemode="maximized"][tabsontop="false"] #nav-bar {
+	margin-top: 4px !important;
+}
+
+#TabsToolbar {
+	border-bottom: 1px solid #2c2b2a !important;
+	background: #2c2b2a !important;
+}
+
+#main-window:not([chromehidden*="toolbar"])[sizemode="normal"] {
+	margin-top: -22px !important;
+	margin-left: -1px !important;
+	margin-right: -1px !important;
+	margin-bottom:  -1px !important;
+}
