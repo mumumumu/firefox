@@ -27,6 +27,6 @@
 
 #main-window:not([chromehidden*="toolbar"])[sizemode="normal"] {
 	margin-top: -22px !important;
-	margin-left: -1px !important;
-	margin-bottom:  -1px !important;
 }
+
+[id="widget:info@priceblink.com-priceblink-widget"] {display: none !important;}
