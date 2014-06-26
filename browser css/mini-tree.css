@@ -20,8 +20,7 @@
 	margin-top: 4px !important;
 }
 
-#TabsToolbar {
-	border-bottom: 1px solid #2c2b2a !important;
+#main-window #tabbrowser-tabs {
 	background: #2c2b2a !important;
 }
 
